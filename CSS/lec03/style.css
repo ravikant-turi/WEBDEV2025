@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: rgb(72, 255, 0);
+}
+
+.header{
+    background-color: red ;
+}
+
+#header1{
+    background-color: blue !important;
+}
+#header1{
+    background-color: rgb(255, 230, 0) ;
+}
+
+h2{
+    background-color: orange;
+    position: relative;
+    right: 40px;
+    left: 100px;
+    /* top: 50px;
+    bottom: 100px; */
+}
+
+h3{
+    background-color: pink;
+    top: 0px;
+    position: fixed;
+    left: 20px;
+}
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 10px;
+}
+p{
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+h5{
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+div{
+    position: relative;
+    border: 2px solid black;
+    left: 20px;
+}

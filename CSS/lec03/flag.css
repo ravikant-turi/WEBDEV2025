@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+#firstdiv {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+#seconddiv {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+}
+#thirddiv {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+#fouthdiv {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.maindiv {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+}

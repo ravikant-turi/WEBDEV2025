@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.outerdiv{
+    background-color: rgb(233, 227, 227);
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.innerdiv{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    top: 150px;
+    left: 150px;
+    
+
+}

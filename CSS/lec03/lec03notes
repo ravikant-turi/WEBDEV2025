@@ -1,0 +1,24 @@
+#we learn about priority of css
+1.inline>internal >external [how it written it matters]
+2.id > class > tags priority orders
+3.!important=high priority
+
+
+#positioning
+
+position : static [default] / relative / fixed /sticky /absolute : 
+
+1.space will be reservered always but not in the case of absolute
+
+1.fixed : it take the refrence from window
+      it always fixed even you are scrolling
+
+
+//stciky :  it use to make heading of subheading like while scrolling it move but after some times it will act as an heading , it is lite versing of fixed
+
+
+5.absolute :
+ 1.y apna space koi bhi le skata hai and 
+ y reference window nhi leta hai hai ye ancester ka leta hia
+ ,ansester ya to relative /sticky/fixed ho other wise by default agar static hua to ye reference just ansester means parents ko lega
+
