@@ -1,28 +1,60 @@
+
+
 body {
   background-color: black;
 }
+
 #firstdiv {
-  background-color: red;
-  height: 100px;
+  background-color: rgb(13, 120, 207);
+  height: 200px;
   width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 #seconddiv {
-  background-color: red;
-  height: 300px;
-  width: 300px;
+  background-color: rgb(13, 120, 207);
+  height: 200px;
+  width: 400px;
+  left: 200px;
+  position: absolute;
+  top :0;
+    box-sizing: border-box;
+
 }
 #thirddiv {
-  background-color: red;
-  height: 100px;
+  background-color: rgb(13, 120, 207);
+  height: 200px;
   width: 100px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+    box-sizing: border-box;
+
 }
 #fouthdiv {
-  background-color: red;
-  height: 100px;
-  width: 100px;
+  background-color: rgb(13, 120, 207);
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+    box-sizing: border-box;
+
 }
 .maindiv {
-  background-color: white;
+  background-color: yellow;
   height: 500px;
-  width: 500px;
+  width: 600px;
+  position: relative;
+  box-sizing: border-box;
+  margin: 50px auto;
+  position: relative;
+}
+.container{
+  position: absolute;
+  margin: 50px auto;
+  background-color: white;
+  height:700px ;
+  width: 900px;
 }

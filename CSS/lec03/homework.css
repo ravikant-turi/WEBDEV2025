@@ -1,0 +1,40 @@
+.container {
+  height: 400px;
+  width: 600px;
+  /* border: 2px solid rgb(24, 5, 5); */
+  box-sizing: border-box;
+  position: relative;
+}
+.first {
+  position: absolute;
+}
+.first,
+.third {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  box-sizing: border-box;
+}
+.second {
+  background-color: rgb(33, 33, 113);
+  box-sizing: border-box;
+  position: relative;
+  top: 100px;
+  height: 200px;
+}
+.inside {
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  top: 10px;
+}
+.third {
+  top: 300px;
+  position: absolute;
+  box-sizing: border-box;
+}
