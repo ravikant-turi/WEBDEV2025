@@ -1,0 +1,20 @@
+inline :
+
+example : span tag
+
+1.HORIGONTAL PROPERTY APPLY HOT HIA
+ a.width is applied but not height
+ b.padding - left and write work 
+
+ 2.do not start with new tag
+
+
+ display : inline-block - it allow the HORIGONTAL
+
+
+ box-sizing:border-box
+ contentwidth+padding+border widhth+margin : it include all
+
+
+
+ 
