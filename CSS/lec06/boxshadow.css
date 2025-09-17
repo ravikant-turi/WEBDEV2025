@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* .container {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  /* box-shadow: 10px 15px blue; */
+  /* box-shadow: 10px 20px 33px blue; */
+  /* box-shadow: inset 10px 10px 3px blue; */
+  /* background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 00px 0px  10px 10px red; */
+/* } */
+
+.container{
+    background-color: rgb(237, 6, 6);
+    height: 200px;
+    width: 200px;
+    color: white;
+    overflow: scroll;
+    
+}
