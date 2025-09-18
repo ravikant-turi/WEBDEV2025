@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 150px;
+  background-color: rgb(247, 43, 6);
+  animation-name: moving;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  position: absolute;
+  /* animation-direction: alternate-reverse; */
+  animation-delay: 5s;
+  /* what to after the animatation completed */
+  animation-fill-mode: forwards;
+
+}
+@keyframes moving {
+  0% {
+    background-color: orange;
+    top: 10px;
+    left: 10px;
+  }
+  25% {
+    background-color: blue;
+    top: 10px;
+    left: 1000px;
+  }
+  50%{
+    background-color: green;
+    top: 500px;
+    left: 1000px;
+  }
+  75%{
+    background-color: aqua;
+    top: 500px;
+    left: 10px;
+  }
+  100%{
+    background-color:blueviolet ;
+    top: 10px;
+    left: 10px;
+  }
+}
